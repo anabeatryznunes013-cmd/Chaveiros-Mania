@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff8fb">
+  <title>Chaveiros Mania | Pequenos detalhes, grandes encantos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">Feitos à mão com carinho ♡</div>
+  <header class="header">
+    <a class="brand" href="#inicio"><span class="brand-mark">✿</span><span>Chaveiros <b>Mania</b><small>PEQUENOS DETALHES, GRANDES ENCANTOS</small></span></a>
+    <nav><a href="#inicio">Início</a><a href="#produtos">Chaveiros</a><a href="#sobre">Sobre</a></nav>
+    <button class="cart-button" id="open-cart" aria-label="Abrir carrinho">Sacola <span id="cart-count">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow">UM MIMO FEITO À MÃO</span>
+        <h1>Um chaveirinho<br>cheio de <em>personalidade.</em></h1>
+        <p>Peças artesanais feitas com carinho para deixar seus dias mais coloridos e especiais.</p>
+        <a class="primary-link" href="#produtos">Ver nossos chaveiros <span>↗</span></a>
+        <div class="hero-note"><span>♡</span> Cada peça tem seu próprio encanto</div>
+      </div>
+      <div class="hero-art">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="hero-sticker sticker-one">feito<br>com amor ♡</div>
+        <div class="hero-sticker sticker-two">✿</div>
+        <div class="hero-center"><span>✿</span><b>CHAVEIROS<br>MANIA</b><small>ARTESANATO COM CARINHO</small></div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <span class="eyebrow">NOSSA COLEÇÃO</span>
+      <h2>Encontre seu novo<br><em>favorito.</em></h2>
+      <p>Escolha o seu modelo e coloque um toque de fofura na rotina.</p>
+    </section>
+
+    <section class="products-section" id="produtos">
+      <div class="section-top"><div><span class="eyebrow">FEITOS À MÃO</span><h2>Nossos chaveiros</h2></div><span class="product-count" id="product-count">6 categorias</span></div>
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="about" id="sobre">
+      <div class="about-symbol">♡</div>
+      <div><span class="eyebrow">UM POUQUINHO SOBRE NÓS</span><h2>Pequenos detalhes<br>feitos com carinho.</h2>
+      <p>A Chaveiros Mania nasceu para transformar materiais simples em lembrancinhas cheias de charme. Cada peça é preparada com cuidado para acompanhar você ou presentear alguém especial.</p></div>
+    </section>
+    <section class="bottom-cta"><span class="eyebrow">ESCOLHA O SEU</span><h2>Seu próximo chaveiro<br>favorito está aqui.</h2><a class="primary-link" href="#produtos">Explorar coleção ↗</a></section>
+  </main>
+
+  <footer><a class="brand" href="#inicio"><span class="brand-mark">✿</span><span>Chaveiros <b>Mania</b><small>PEQUENOS DETALHES, GRANDES ENCANTOS</small></span></a><p>Feito à mão com carinho ♡</p><small>© 2026 Chaveiros Mania</small></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-panel" id="cart-panel" aria-label="Carrinho de compras">
+    <div class="cart-head"><div><span class="eyebrow">SEUS FAVORITOS</span><h2>Sua sacola</h2></div><button class="close-cart" id="close-cart" aria-label="Fechar">×</button></div>
+    <div class="cart-items" id="cart-items"><p class="empty-cart">Sua sacola está vazia por enquanto. ♡</p></div>
+    <div class="cart-bottom"><div class="total-row"><span>Total</span><b id="cart-total">A combinar</b></div><p class="cart-help">O valor final será confirmado no atendimento.</p><button class="checkout" id="checkout">Finalizar pelo WhatsApp ↗</button></div>
+  </aside>
+  <script src="script.js"></script>
+</body>
+</html>
